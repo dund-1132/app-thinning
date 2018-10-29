@@ -91,6 +91,7 @@
 			isa = PBXProject;
 			attributes = {
 				KnownAssetTags = (
+					level01,
 					level02,
 					level03,
 					level04,
@@ -298,8 +299,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = level02;
-				ON_DEMAND_RESOURCES_PREFETCH_ORDER = level03;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngodacdu.appthinning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4096ee4f-0733-4c34-963a-abfe1c5ce50e";
@@ -322,8 +321,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = level02;
-				ON_DEMAND_RESOURCES_PREFETCH_ORDER = level03;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ngodacdu.appthinning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5a4f683e-e70d-407c-b5c3-2ae9c58e1756";

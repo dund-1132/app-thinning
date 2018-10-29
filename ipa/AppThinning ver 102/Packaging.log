@@ -1,0 +1,1365 @@
+2018-10-29 14:46:34 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9faa245060; archive(resolved)='<IDEArchive: 0x7f9fa8cac880>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team(resolved)='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9faa245060; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9faa541250; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9faa528340; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9faa554a10; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9faa5059d0; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9fa8f64580; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9fa8fac9e0; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9fa8e47c00; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9faa35da60; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='<IDEProvisioningBasicTeam: 0x7f9faa586ee0; teamID='PZ9NZA89U4', teamName='Ngo Dac Du'>'>
+	<IDEDistributionContext: 0x7f9fa8f7c310; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7f9fa8cf8e70>', team='(null)'>
+	<IDEDistributionContext: 0x7f9faa377f30; archive = '<IDEArchive: 0x7f9fa8cac880>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9faa245060>
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionCopyItemStep
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app 
+2018-10-29 14:46:34 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-10-29 14:46:34 +0000  15163 bytes for ./_CodeSignature/CodeResources
+2018-10-29 14:46:34 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-10-29 14:46:34 +0000  2123 bytes for ./AppIcon20x20@2x.png
+copying file ./AppThinning ... 
+2018-10-29 14:46:34 +0000  492256 bytes for ./AppThinning
+2018-10-29 14:46:34 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-10-29 14:46:34 +0000  2976 bytes for ./AppIcon20x20@3x.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-10-29 14:46:34 +0000  5941 bytes for ./AppIcon60x60@2x.png
+2018-10-29 14:46:34 +0000  copying file ./OnDemandResources.plist ... 
+2018-10-29 14:46:34 +0000  858 bytes for ./OnDemandResources.plist
+2018-10-29 14:46:34 +0000  copying file ./AppIcon29x29@2x.png ... 
+2018-10-29 14:46:34 +0000  2987 bytes for ./AppIcon29x29@2x.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-10-29 14:46:34 +0000  5941 bytes for ./AppIcon40x40@3x.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2018-10-29 14:46:34 +0000  1527 bytes for ./AppIcon29x29~ipad.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon40x40@2x.png ... 
+2018-10-29 14:46:34 +0000  4148 bytes for ./AppIcon40x40@2x.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-10-29 14:46:34 +0000  4441 bytes for ./AppIcon29x29@3x.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon60x60@3x.png ... 
+2018-10-29 14:46:34 +0000  8445 bytes for ./AppIcon60x60@3x.png
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2018-10-29 14:46:34 +0000  983 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2018-10-29 14:46:34 +0000  983 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2018-10-29 14:46:34 +0000  3893 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2018-10-29 14:46:34 +0000  4013 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-10-29 14:46:34 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-10-29 14:46:34 +0000  1984 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-10-29 14:46:34 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-10-29 14:46:34 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-10-29 14:46:34 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  144632 bytes for ./Assets.car
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2018-10-29 14:46:34 +0000  4148 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-10-29 14:46:34 +0000  7237 bytes for ./AppIcon76x76@2x~ipad.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2018-10-29 14:46:34 +0000  7950 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./AssetPackManifestTemplate.plist ... 
+2018-10-29 14:46:34 +0000  3343 bytes for ./AssetPackManifestTemplate.plist
+2018-10-29 14:46:34 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2018-10-29 14:46:34 +0000  2987 bytes for ./AppIcon29x29@2x~ipad.png
+2018-10-29 14:46:34 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2018-10-29 14:46:34 +0000  2123 bytes for ./AppIcon40x40~ipad.png
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-10-29 14:46:34 +0000  349408 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-10-29 14:46:34 +0000  595872 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-10-29 14:46:34 +0000  66671344 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-10-29 14:46:34 +0000  1637568 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-10-29 14:46:34 +0000  1084800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-10-29 14:46:34 +0000  457904 bytes for ./Frameworks/libswiftMetal.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-10-29 14:46:34 +0000  2764080 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2018-10-29 14:46:34 +0000  506160 bytes for ./Frameworks/libswiftos.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-10-29 14:46:34 +0000  299520 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-10-29 14:46:34 +0000  847744 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-10-29 14:46:34 +0000  352384 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-10-29 14:46:34 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-10-29 14:46:34 +0000  30173168 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-10-29 14:46:34 +0000  copying file ./AppIcon20x20~ipad.png ... 
+1039 bytes for ./AppIcon20x20~ipad.png
+copying file ./embedded.mobileprovision ... 
+2018-10-29 14:46:34 +0000  7505 bytes for ./embedded.mobileprovision
+2018-10-29 14:46:34 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2018-10-29 14:46:34 +0000  2123 bytes for ./AppIcon20x20@2x~ipad.png
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+2018-10-29 14:46:34 +0000  1419 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  copying file ./PkgInfo ... 
+2018-10-29 14:46:34 +0000  8 bytes for ./PkgInfo
+2018-10-29 14:46:34 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2018-10-29 14:46:34 +0000  3905 bytes for ./AppIcon76x76~ipad.png
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  6845960 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  5751640 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  2978600 bytes for ./Assets.car
+copying file ./Info.plist ... 
+2018-10-29 14:46:34 +0000  139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  4053704 bytes for ./Assets.car
+copying file ./Info.plist ... 
+2018-10-29 14:46:34 +0000  139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  6590568 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  6259656 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  3376856 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  7120408 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+2018-10-29 14:46:34 +0000  139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack'
+2018-10-29 14:46:34 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack 
+2018-10-29 14:46:34 +0000  copying file ./Assets.car ... 
+2018-10-29 14:46:34 +0000  4921912 bytes for ./Assets.car
+2018-10-29 14:46:34 +0000  copying file ./Info.plist ... 
+139 bytes for ./Info.plist
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+
+2018-10-29 14:46:34 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:34 +0000  2018-10-29 14:46:34 +0000  
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa34b580 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9fa71ee120:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCore.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa535740 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9fa71f5840:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa52f7a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9faa513470:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa3bf810 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9fa71eb200:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9fa8f6dd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9fa71f6e70:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa252d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9fa71fa720:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa57a820 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9faa517490:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa3cd4c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9faa515d40:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftMetal.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa3f3640 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9fa71f0f00:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa56f860 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9fa71f7070:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa3bdc00 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9faa514a60:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa3f3790 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9fa71f3090:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftos.dylib'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa541150 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8LC' '<DVTFilePath:0x7f9faa523a30:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa530460 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8OX' '<DVTFilePath:0x7f9faa417ea0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa582770 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8SI' '<DVTFilePath:0x7f9faa529de0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa5825c0 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8W3' '<DVTFilePath:0x7f9faa40ea70:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa36c2c0 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8ZO' '<DVTFilePath:0x7f9faa528050:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa58ba70 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW939' '<DVTFilePath:0x7f9faa525890:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa58a9a0 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW96U' '<DVTFilePath:0x7f9faa520fb0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa589570 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW9AF' '<DVTFilePath:0x7f9faa4004f0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack'>'>
+2018-10-29 14:46:34 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9faa52e5e0 'com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW9E0' '<DVTFilePath:0x7f9faa413730:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack'>'>
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-10-29 14:46:34 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-10-29 14:46:34 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-10-29 14:46:34 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-10-29 14:46:35 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-10-29 14:46:35 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/BCSymbolMaps/3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/BCSymbolMaps/3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap'
+2018-10-29 14:46:35 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/BCSymbolMaps/3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap 
+2018-10-29 14:46:35 +0000  copying file ./3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap ... 
+2018-10-29 14:46:35 +0000  19705 bytes for ./3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/BCSymbolMaps/EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/BCSymbolMaps/EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap'
+2018-10-29 14:46:35 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/BCSymbolMaps/EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap 
+2018-10-29 14:46:35 +0000  copying file ./EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap ... 
+2018-10-29 14:46:35 +0000  19650 bytes for ./EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  Processing step: IDEDistributionSymbolsStep
+2018-10-29 14:46:35 +0000  Processing symbols for libswiftCore.dylib
+2018-10-29 14:46:35 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:35 +0000  building file list ... 
+2018-10-29 14:46:35 +0000   0 files...2018-10-29 14:46:35 +0000  1 file to consider
+2018-10-29 14:46:35 +0000  
+sent 93 bytes  received 20 bytes  226.00 bytes/sec
+total size is 63.58M  speedup is 590011.89
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:35 +0000  building file list ... 
+2018-10-29 14:46:35 +0000   0 files...2018-10-29 14:46:35 +0000  7 files to consider
+2018-10-29 14:46:35 +0000  ./
+2018-10-29 14:46:35 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:35 +0000  
+sent 245 bytes  received 50 bytes  590.00 bytes/sec
+2018-10-29 14:46:35 +0000  total size is 208.37K  speedup is 723.29
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  /usr/bin/rsync exited with 02018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCore.dylib'
+2018-10-29 14:46:35 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCore.dylib [armv7, 0.372181 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCore.dylib [armv7s, 0.372181 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCore.dylib [arm64, 0.372181 seconds]:
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-10-29 14:46:35 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:35 +0000  building file list ... 
+2018-10-29 14:46:35 +0000   0 files...2018-10-29 14:46:35 +0000  1 file to consider
+2018-10-29 14:46:35 +0000  
+sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 292.50K  speedup is 2435.12
+2018-10-29 14:46:35 +0000  
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:35 +0000  2018-10-29 14:46:35 +0000  
+
+2018-10-29 14:46:35 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+AppThinning.app.dSYM/
+2018-10-29 14:46:36 +0000  AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreFoundation.dylib'
+2018-10-29 14:46:36 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreFoundation.dylib [armv7, 0.002177 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreFoundation.dylib [armv7s, 0.002177 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreFoundation.dylib [arm64, 0.002177 seconds]:
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  1 file to consider
+2018-10-29 14:46:36 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+total size is 1.56M  speedup is 13533.62
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 02018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+2018-10-29 14:46:36 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreGraphics.dylib'
+2018-10-29 14:46:36 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreGraphics.dylib [armv7, 0.010718 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreGraphics.dylib [armv7s, 0.010718 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreGraphics.dylib [arm64, 0.010718 seconds]:
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  1 file to consider
+2018-10-29 14:46:36 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 341.22K  speedup is 2961.08
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreImage.dylib'
+2018-10-29 14:46:36 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreImage.dylib [armv7, 0.001429 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreImage.dylib [armv7s, 0.001429 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftCoreImage.dylib [arm64, 0.001429 seconds]:
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Processing symbols for libswiftDarwin.dylib
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  1 file to consider
+2018-10-29 14:46:36 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 827.88K  speedup is 7371.69
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 02018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+2018-10-29 14:46:36 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDarwin.dylib'
+2018-10-29 14:46:36 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDarwin.dylib [armv7, 0.006271 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDarwin.dylib [armv7s, 0.006271 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDarwin.dylib [arm64, 0.006271 seconds]:
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Processing symbols for libswiftDispatch.dylib
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  1 file to consider
+2018-10-29 14:46:36 +0000  
+sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 2.64M  speedup is 23624.62
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+2018-10-29 14:46:36 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDispatch.dylib'
+2018-10-29 14:46:36 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDispatch.dylib [armv7, 0.022990 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDispatch.dylib [armv7s, 0.022990 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftDispatch.dylib [arm64, 0.022990 seconds]:
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-10-29 14:46:36 +0000  Processing symbols for libswiftFoundation.dylib
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  1 file to consider
+2018-10-29 14:46:36 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 28.78M  speedup is 253556.03
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:36 +0000  building file list ... 
+2018-10-29 14:46:36 +0000   0 files...2018-10-29 14:46:36 +0000  7 files to consider
+2018-10-29 14:46:36 +0000  ./
+2018-10-29 14:46:36 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:36 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:36 +0000  2018-10-29 14:46:36 +0000  
+
+2018-10-29 14:46:36 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:36 +0000  
+2018-10-29 14:46:36 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftFoundation.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftFoundation.dylib [armv7, 0.150183 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftFoundation.dylib [armv7s, 0.150183 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftFoundation.dylib [arm64, 0.150183 seconds]:
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Processing symbols for libswiftMetal.dylib
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  1 file to consider
+2018-10-29 14:46:37 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 447.17K  speedup is 4016.70
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  7 files to consider
+2018-10-29 14:46:37 +0000  ./
+2018-10-29 14:46:37 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:37 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftMetal.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftMetal.dylib [armv7, 0.002559 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftMetal.dylib [armv7s, 0.002559 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftMetal.dylib [arm64, 0.002559 seconds]:
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+ 0 files...2018-10-29 14:46:37 +0000  1 file to consider
+2018-10-29 14:46:37 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 581.91K  speedup is 5007.33
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 02018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  7 files to consider
+2018-10-29 14:46:37 +0000  ./
+2018-10-29 14:46:37 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:37 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftObjectiveC.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftObjectiveC.dylib [armv7, 0.003359 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftObjectiveC.dylib [armv7s, 0.003359 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftObjectiveC.dylib [arm64, 0.003359 seconds]:
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  1 file to consider
+2018-10-29 14:46:37 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 344.12K  speedup is 2961.21
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  7 files to consider
+2018-10-29 14:46:37 +0000  ./
+2018-10-29 14:46:37 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:37 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftQuartzCore.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftQuartzCore.dylib [armv7, 0.002328 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftQuartzCore.dylib [armv7s, 0.002328 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftQuartzCore.dylib [arm64, 0.002328 seconds]:
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Processing symbols for libswiftUIKit.dylib
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  1 file to consider
+2018-10-29 14:46:37 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 1.03M  speedup is 9515.79
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 02018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  7 files to consider
+2018-10-29 14:46:37 +0000  ./
+2018-10-29 14:46:37 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:37 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftUIKit.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftUIKit.dylib [armv7, 0.006221 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftUIKit.dylib [armv7s, 0.006221 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftUIKit.dylib [arm64, 0.006221 seconds]:
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Processing symbols for libswiftos.dylib
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  1 file to consider
+2018-10-29 14:46:37 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 494.30K  speedup is 4560.00
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '--link-dest' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/dSYMs/' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19'
+2018-10-29 14:46:37 +0000  building file list ... 
+2018-10-29 14:46:37 +0000   0 files...2018-10-29 14:46:37 +0000  7 files to consider
+2018-10-29 14:46:37 +0000  ./
+2018-10-29 14:46:37 +0000  AppThinning.app.dSYM/
+AppThinning.app.dSYM/Contents/
+AppThinning.app.dSYM/Contents/Resources/
+AppThinning.app.dSYM/Contents/Resources/DWARF/
+2018-10-29 14:46:37 +0000  
+sent 257 bytes  received 62 bytes  638.00 bytes/sec
+total size is 208.37K  speedup is 668.87
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftos.dylib'
+2018-10-29 14:46:37 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftos.dylib [armv7, 0.004169 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftos.dylib [armv7s, 0.004169 seconds]:
+/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/libswiftos.dylib [arm64, 0.004169 seconds]:
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-29 14:46:37 +0000  
+2018-10-29 14:46:37 +0000  Excluding symbols for AppThinning.app
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level01.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level02.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level03.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level04.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level05.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level06.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level07.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level08.assetpack
+2018-10-29 14:46:37 +0000  Excluding symbols for com.ngodacdu.appthinning.level09.assetpack
+2018-10-29 14:46:37 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-10-29 14:46:37 +0000  Running /usr/bin/ditto '-V' '/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/SwiftSupport' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/SwiftSupport'
+2018-10-29 14:46:37 +0000  >>> Copying /Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/SwiftSupport 
+2018-10-29 14:46:37 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-10-29 14:46:37 +0000  351529 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-10-29 14:46:37 +0000  737121 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-10-29 14:46:37 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-10-29 14:46:37 +0000  96713490 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-10-29 14:46:37 +0000  2199570 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-10-29 14:46:37 +0000  1410757 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-10-29 14:46:37 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-10-29 14:46:37 +0000  558438 bytes for ./iphoneos/libswiftMetal.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-10-29 14:46:37 +0000  3697961 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-10-29 14:46:37 +0000  656415 bytes for ./iphoneos/libswiftos.dylib
+2018-10-29 14:46:37 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-10-29 14:46:37 +0000  288225 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-10-29 14:46:37 +0000  1091344 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-10-29 14:46:37 +0000  369774 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-10-29 14:46:37 +0000  43073646 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:37 +0000  2018-10-29 14:46:37 +0000  
+
+2018-10-29 14:46:37 +0000  Processing step: IDEDistributionAppThinningStep
+2018-10-29 14:46:37 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-10-29 14:46:37 +0000  Processing step: IDEDistributionODRStep
+2018-10-29 14:46:37 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa34b580 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9fa71ee120:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCore.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa535740 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9fa71f5840:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa52f7a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9faa513470:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa3bf810 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9fa71eb200:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9fa8f6dd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9fa71f6e70:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa252d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9fa71fa720:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa57a820 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9faa517490:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa3cd4c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9faa515d40:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftMetal.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa3f3640 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9fa71f0f00:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa56f860 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9fa71f7070:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa3bdc00 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9faa514a60:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-10-29 14:46:37 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9faa3f3790 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9fa71f3090:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftos.dylib'>'>
+2018-10-29 14:46:37 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+
+
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack'
+2018-10-29 14:46:38 +0000  2018-10-29 14:46:38 +0000  
+
+2018-10-29 14:46:38 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:38 +0000  
+2018-10-29 14:46:38 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack'
+2018-10-29 14:46:39 +0000  2018-10-29 14:46:39 +0000  
+2018-10-29 14:46:39 +0000  /usr/bin/xattr exited with 0
+
+2018-10-29 14:46:39 +0000  
+2018-10-29 14:46:39 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack'
+2018-10-29 14:46:39 +0000  
+2018-10-29 14:46:39 +0000  2018-10-29 14:46:39 +0000  /usr/bin/xattr exited with 0
+
+2018-10-29 14:46:39 +0000  
+2018-10-29 14:46:39 +0000  Running /usr/bin/xattr '-crs' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack'
+2018-10-29 14:46:39 +0000  2018-10-29 14:46:39 +0000  
+
+2018-10-29 14:46:39 +0000  /usr/bin/xattr exited with 0
+2018-10-29 14:46:39 +0000  2018-10-29 14:46:39 +0000  
+
+2018-10-29 14:46:39 +0000  Processing step: IDEDistributionCodesignStep
+2018-10-29 14:46:39 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa34b580 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9fa71ee120:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-10-29 14:46:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa34b580 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9fa71ee120:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementspCNv4i
+2018-10-29 14:46:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementspCNv4i' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCore.dylib'
+2018-10-29 14:46:39 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa535740 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9fa71f5840:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa535740 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9fa71f5840:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsKKjpd3
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsKKjpd3' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa52f7a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9faa513470:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa52f7a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9faa513470:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlements0wqdV7
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlements0wqdV7' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:40 +0000  
+
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa3bf810 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9fa71eb200:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa3bf810 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9fa71eb200:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsOD0Off
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsOD0Off' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:40 +0000  
+
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9fa8f6dd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9fa71f6e70:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9fa8f6dd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9fa71f6e70:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlements0YGRtR
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlements0YGRtR' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:40 +0000  2018-10-29 14:46:40 +0000  
+
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa252d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9fa71fa720:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa252d10 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9fa71fa720:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsRtnVzu
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsRtnVzu' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  
+2018-10-29 14:46:40 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:40 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa57a820 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9faa517490:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-10-29 14:46:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa57a820 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9faa517490:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsQespaH
+2018-10-29 14:46:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsQespaH' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib'
+2018-10-29 14:46:40 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:41 +0000  
+
+
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa3cd4c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9faa515d40:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa3cd4c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9faa515d40:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsMJOYBi
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsMJOYBi' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftMetal.dylib'
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa3f3640 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9fa71f0f00:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa3f3640 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9fa71f0f00:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsp9mZTp
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsp9mZTp' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib'
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa56f860 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9fa71f7070:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa56f860 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9fa71f7070:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementscgPMU4
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementscgPMU4' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib'
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa3bdc00 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9faa514a60:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa3bdc00 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9faa514a60:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementszf0bkt
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementszf0bkt' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib'
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa3f3790 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9fa71f3090:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa3f3790 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9fa71f3090:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsgRnMJ1
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsgRnMJ1' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftos.dylib'
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-10-29 14:46:41 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-10-29 14:46:41 +0000  2018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:41 +0000  
+
+2018-10-29 14:46:41 +0000  
+2018-10-29 14:46:41 +0000  Entitlements for <IDEDistributionItem: 0x7f9faa5826d0 'com.ngodacdu.appthinning' '<DVTFilePath:0x7f9fa8c2bfe0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app'>'>: {
+    "application-identifier" = "PZ9NZA89U4.com.ngodacdu.appthinning";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = PZ9NZA89U4;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "PZ9NZA89U4.com.ngodacdu.appthinning"
+    );
+}
+2018-10-29 14:46:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9faa5826d0 'com.ngodacdu.appthinning' '<DVTFilePath:0x7f9fa8c2bfe0:'/Users/mac/Library/Developer/Xcode/Archives/2018-10-29/AppThinning 10-29-18, 9.39 PM.xcarchive/Products/Applications/AppThinning.app'>'> to: /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsgbMCr8
+2018-10-29 14:46:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/entitlementsgbMCr8' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app'
+2018-10-29 14:46:42 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/AppThinning.app: signed app bundle with Mach-O universal (armv7 arm64) [com.ngodacdu.appthinning]
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:42 +0000  
+
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack'
+2018-10-29 14:46:42 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8LC]
+2018-10-29 14:46:42 +0000  2018-10-29 14:46:42 +0000  
+
+2018-10-29 14:46:42 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack'
+2018-10-29 14:46:42 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8OX]
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  2018-10-29 14:46:42 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:42 +0000  2018-10-29 14:46:42 +0000  
+
+2018-10-29 14:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack'
+2018-10-29 14:46:42 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8SI]
+2018-10-29 14:46:42 +0000  2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack'
+2018-10-29 14:46:42 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8W3]
+2018-10-29 14:46:42 +0000  
+2018-10-29 14:46:42 +0000  2018-10-29 14:46:42 +0000  /usr/bin/codesign exited with 0
+2018-10-29 14:46:42 +0000  
+
+2018-10-29 14:46:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack'
+2018-10-29 14:46:43 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW8ZO]
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  /usr/bin/codesign exited with 02018-10-29 14:46:43 +0000  
+
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack'
+2018-10-29 14:46:43 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW939]
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  
+
+2018-10-29 14:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack'
+2018-10-29 14:46:43 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW96U]
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  
+
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack'
+2018-10-29 14:46:43 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW9AF]
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  
+
+2018-10-29 14:46:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '3E79FF5E016E3AA2A2FD3AA44092756B15C0FA16' '--preserve-metadata=identifier,entitlements,flags' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack'
+2018-10-29 14:46:43 +0000  /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root/Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack: signed bundle [com.ngodacdu.appthinning.asset-pack-12GZ3GFIOW9E0]
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  /usr/bin/codesign exited with 0
+
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-10-29 14:46:43 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-10-29 14:46:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Symbols' '--link-dest' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root'
+2018-10-29 14:46:43 +0000  building file list ... 
+2018-10-29 14:46:43 +0000   0 files...2018-10-29 14:46:43 +0000  37 files to consider
+2018-10-29 14:46:43 +0000  Symbols/
+2018-10-29 14:46:43 +0000  
+sent 2.01K bytes  received 26 bytes  4.06K bytes/sec
+total size is 16.71M  speedup is 8417.96
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  /usr/bin/rsync exited with 0
+
+2018-10-29 14:46:43 +0000  2018-10-29 14:46:43 +0000  
+
+2018-10-29 14:46:43 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root' '/var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Packages/AppThinning.ipa'
+2018-10-29 14:46:43 +0000  >>> Copying /var/folders/d6/n7ch42bd0bddv98pbhlc3jv00000gn/T/XcodeDistPipeline.o19/Root 
+2018-10-29 14:46:43 +0000  copying file ./BCSymbolMaps/EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap ... 
+2018-10-29 14:46:43 +0000  19650 bytes for ./BCSymbolMaps/EA6678EC-572D-38DB-AFF0-D1D7324EA979.bcsymbolmap
+copying file ./BCSymbolMaps/3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap ... 
+2018-10-29 14:46:43 +0000  19705 bytes for ./BCSymbolMaps/3F510BA0-60A4-3FB5-8B6C-BE7BFA85B4FD.bcsymbolmap
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:43 +0000  14843 bytes for ./Payload/AppThinning.app/_CodeSignature/CodeResources
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppIcon20x20@2x.png ... 
+2018-10-29 14:46:43 +0000  2123 bytes for ./Payload/AppThinning.app/AppIcon20x20@2x.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppThinning ... 
+2018-10-29 14:46:43 +0000  376304 bytes for ./Payload/AppThinning.app/AppThinning
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppIcon20x20@3x.png ... 
+2018-10-29 14:46:43 +0000  2976 bytes for ./Payload/AppThinning.app/AppIcon20x20@3x.png
+copying file ./Payload/AppThinning.app/AppIcon60x60@2x.png ... 
+2018-10-29 14:46:43 +0000  5941 bytes for ./Payload/AppThinning.app/AppIcon60x60@2x.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/OnDemandResources.plist ... 
+2018-10-29 14:46:43 +0000  858 bytes for ./Payload/AppThinning.app/OnDemandResources.plist
+copying file ./Payload/AppThinning.app/AppIcon29x29@2x.png ... 
+2018-10-29 14:46:43 +0000  2987 bytes for ./Payload/AppThinning.app/AppIcon29x29@2x.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppIcon40x40@3x.png ... 
+2018-10-29 14:46:43 +0000  5941 bytes for ./Payload/AppThinning.app/AppIcon40x40@3x.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppIcon29x29~ipad.png ... 
+2018-10-29 14:46:43 +0000  1527 bytes for ./Payload/AppThinning.app/AppIcon29x29~ipad.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/AppIcon40x40@2x.png ... 
+2018-10-29 14:46:43 +0000  4148 bytes for ./Payload/AppThinning.app/AppIcon40x40@2x.png
+copying file ./Payload/AppThinning.app/AppIcon29x29@3x.png ... 
+2018-10-29 14:46:43 +0000  4441 bytes for ./Payload/AppThinning.app/AppIcon29x29@3x.png
+copying file ./Payload/AppThinning.app/AppIcon60x60@3x.png ... 
+2018-10-29 14:46:43 +0000  8445 bytes for ./Payload/AppThinning.app/AppIcon60x60@3x.png
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2018-10-29 14:46:43 +0000  983 bytes for ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2018-10-29 14:46:43 +0000  983 bytes for ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+copying file ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2018-10-29 14:46:43 +0000  3893 bytes for ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2018-10-29 14:46:43 +0000  4013 bytes for ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-10-29 14:46:43 +0000  258 bytes for ./Payload/AppThinning.app/Base.lproj/Main.storyboardc/Info.plist
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-10-29 14:46:43 +0000  1984 bytes for ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-10-29 14:46:43 +0000  832 bytes for ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/AppThinning.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-10-29 14:46:43 +0000  copying file ./Payload/AppThinning.app/Assets.car ... 
+2018-10-29 14:46:43 +0000  144632 bytes for ./Payload/AppThinning.app/Assets.car
+copying file ./Payload/AppThinning.app/AppIcon40x40@2x~ipad.png ... 
+4148 bytes for ./Payload/AppThinning.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/AppThinning.app/AppIcon76x76@2x~ipad.png ... 
+2018-10-29 14:46:43 +0000  7237 bytes for ./Payload/AppThinning.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/AppThinning.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2018-10-29 14:46:43 +0000  7950 bytes for ./Payload/AppThinning.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/AppThinning.app/AppIcon29x29@2x~ipad.png ... 
+2018-10-29 14:46:43 +0000  2987 bytes for ./Payload/AppThinning.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/AppThinning.app/AppIcon40x40~ipad.png ... 
+2123 bytes for ./Payload/AppThinning.app/AppIcon40x40~ipad.png
+copying file ./Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-10-29 14:46:43 +0000  349760 bytes for ./Payload/AppThinning.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-10-29 14:46:43 +0000  596224 bytes for ./Payload/AppThinning.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftCore.dylib ... 
+2018-10-29 14:46:46 +0000  66671712 bytes for ./Payload/AppThinning.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-10-29 14:46:46 +0000  1637920 bytes for ./Payload/AppThinning.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib ... 
+2018-10-29 14:46:46 +0000  1085152 bytes for ./Payload/AppThinning.app/Frameworks/libswiftUIKit.dylib
+2018-10-29 14:46:46 +0000  copying file ./Payload/AppThinning.app/Frameworks/libswiftMetal.dylib ... 
+2018-10-29 14:46:46 +0000  458256 bytes for ./Payload/AppThinning.app/Frameworks/libswiftMetal.dylib
+2018-10-29 14:46:46 +0000  copying file ./Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib ... 
+2018-10-29 14:46:46 +0000  2764432 bytes for ./Payload/AppThinning.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftos.dylib ... 
+2018-10-29 14:46:46 +0000  506512 bytes for ./Payload/AppThinning.app/Frameworks/libswiftos.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-10-29 14:46:46 +0000  299872 bytes for ./Payload/AppThinning.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib ... 
+2018-10-29 14:46:46 +0000  848096 bytes for ./Payload/AppThinning.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-10-29 14:46:46 +0000  352752 bytes for ./Payload/AppThinning.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib ... 
+2018-10-29 14:46:47 +0000  30173520 bytes for ./Payload/AppThinning.app/Frameworks/libswiftFoundation.dylib
+2018-10-29 14:46:47 +0000  copying file ./Payload/AppThinning.app/AppIcon20x20~ipad.png ... 
+1039 bytes for ./Payload/AppThinning.app/AppIcon20x20~ipad.png
+copying file ./Payload/AppThinning.app/embedded.mobileprovision ... 
+7505 bytes for ./Payload/AppThinning.app/embedded.mobileprovision
+copying file ./Payload/AppThinning.app/AppIcon20x20@2x~ipad.png ... 
+2018-10-29 14:46:47 +0000  2123 bytes for ./Payload/AppThinning.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/AppThinning.app/Info.plist ... 
+2018-10-29 14:46:47 +0000  1419 bytes for ./Payload/AppThinning.app/Info.plist
+copying file ./Payload/AppThinning.app/PkgInfo ... 
+2018-10-29 14:46:47 +0000  8 bytes for ./Payload/AppThinning.app/PkgInfo
+copying file ./Payload/AppThinning.app/AppIcon76x76~ipad.png ... 
+2018-10-29 14:46:47 +0000  3905 bytes for ./Payload/AppThinning.app/AppIcon76x76~ipad.png
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:47 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeResources
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeDirectory ... 
+193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:47 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:47 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:47 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/_CodeSignature/CodeRequirements
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/Assets.car ... 
+2018-10-29 14:46:47 +0000  3376856 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/Info.plist ... 
+2018-10-29 14:46:47 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level07.assetpack/Info.plist
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:47 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:47 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:47 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:47 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeSignature
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:47 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/_CodeSignature/CodeRequirements
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/Assets.car ... 
+2018-10-29 14:46:47 +0000  6845960 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/Info.plist ... 
+2018-10-29 14:46:47 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level01.assetpack/Info.plist
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:47 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeResources
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeDirectory ... 
+193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeDirectory
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeRequirements-1 ... 
+241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeRequirements-1
+2018-10-29 14:46:47 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:47 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:47 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/_CodeSignature/CodeRequirements
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  6259656 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level06.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:48 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:48 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeDirectory
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeRequirements-1 ... 
+241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:48 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/_CodeSignature/CodeRequirements
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  7120408 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level08.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:48 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:48 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:48 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeSignature
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeRequirements ... 
+212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/_CodeSignature/CodeRequirements
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  6590568 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level05.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:48 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:48 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:48 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:48 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/_CodeSignature/CodeRequirements
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  2978600 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level03.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:48 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:48 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:48 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:48 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/_CodeSignature/CodeRequirements
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  4921912 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level09.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeResources ... 
+2018-10-29 14:46:48 +0000  2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeResources
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeDirectory ... 
+2018-10-29 14:46:48 +0000  193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeDirectory
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeRequirements-1 ... 
+2018-10-29 14:46:48 +0000  241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeRequirements-1
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeSignature
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:48 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/_CodeSignature/CodeRequirements
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/Assets.car ... 
+2018-10-29 14:46:48 +0000  4053704 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/Assets.car
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/Info.plist ... 
+2018-10-29 14:46:48 +0000  139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level04.assetpack/Info.plist
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeResources ... 
+2010 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeResources
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeDirectory ... 
+193 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeDirectory
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeRequirements-1 ... 
+241 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeRequirements-1
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeSignature ... 
+2018-10-29 14:46:48 +0000  4794 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeSignature
+2018-10-29 14:46:48 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeRequirements ... 
+2018-10-29 14:46:48 +0000  212 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/_CodeSignature/CodeRequirements
+copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/Assets.car ... 
+2018-10-29 14:46:49 +0000  5751640 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/Assets.car
+2018-10-29 14:46:49 +0000  copying file ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/Info.plist ... 
+139 bytes for ./Payload/OnDemandResources/com.ngodacdu.appthinning.level02.assetpack/Info.plist
+2018-10-29 14:46:49 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-10-29 14:46:49 +0000  307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+2018-10-29 14:46:49 +0000  copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-10-29 14:46:49 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2018-10-29 14:46:49 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-10-29 14:46:52 +0000  66629456 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-10-29 14:46:52 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-10-29 14:46:52 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-10-29 14:46:52 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-10-29 14:46:52 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-10-29 14:46:52 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-10-29 14:46:52 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-10-29 14:46:52 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-10-29 14:46:52 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+2018-10-29 14:46:52 +0000  copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-10-29 14:46:53 +0000  30131264 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-10-29 14:46:53 +0000  copying file ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols ... 
+2392 bytes for ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols
+copying file ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols ... 
+14024 bytes for ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols
+copying file ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols ... 
+2018-10-29 14:46:53 +0000  6680 bytes for ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols
+2018-10-29 14:46:53 +0000  copying file ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols ... 
+2018-10-29 14:46:53 +0000  47696 bytes for ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols
+2018-10-29 14:46:53 +0000  copying file ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols ... 
+2018-10-29 14:46:53 +0000  2504 bytes for ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols
+2018-10-29 14:46:53 +0000  copying file ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols ... 
+2018-10-29 14:46:53 +0000  22600 bytes for ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols
+2018-10-29 14:46:53 +0000  copying file ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols ... 
+2018-10-29 14:46:54 +0000  3686296 bytes for ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols ... 
+2018-10-29 14:46:54 +0000  48248 bytes for ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols ... 
+2018-10-29 14:46:54 +0000  13040 bytes for ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols ... 
+2018-10-29 14:46:54 +0000  110160 bytes for ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols ... 
+2018-10-29 14:46:54 +0000  239088 bytes for ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols ... 
+2018-10-29 14:46:54 +0000  22600 bytes for ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols ... 
+6680 bytes for ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols ... 
+2728 bytes for ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols
+copying file ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols ... 
+2018-10-29 14:46:54 +0000  22640 bytes for ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols ... 
+2018-10-29 14:46:54 +0000  3685712 bytes for ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols ... 
+7016 bytes for ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols
+copying file ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols ... 
+2018-10-29 14:46:54 +0000  109440 bytes for ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols ... 
+2018-10-29 14:46:54 +0000  63112 bytes for ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols ... 
+2018-10-29 14:46:54 +0000  14024 bytes for ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols ... 
+2018-10-29 14:46:54 +0000  2816 bytes for ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols
+copying file ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols ... 
+2018-10-29 14:46:54 +0000  62776 bytes for ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols ... 
+2018-10-29 14:46:54 +0000  1640624 bytes for ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols ... 
+2018-10-29 14:46:54 +0000  13216 bytes for ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols ... 
+2018-10-29 14:46:54 +0000  2392 bytes for ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols ... 
+2018-10-29 14:46:54 +0000  2728 bytes for ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols ... 
+2018-10-29 14:46:54 +0000  13040 bytes for ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols ... 
+2018-10-29 14:46:54 +0000  13576 bytes for ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols ... 
+2018-10-29 14:46:54 +0000  110232 bytes for ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols ... 
+2018-10-29 14:46:54 +0000  3667064 bytes for ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols ... 
+2018-10-29 14:46:54 +0000  237168 bytes for ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols ... 
+2018-10-29 14:46:54 +0000  48248 bytes for ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols ... 
+2018-10-29 14:46:54 +0000  1634472 bytes for ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols ... 
+2018-10-29 14:46:54 +0000  1640480 bytes for ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols ... 
+2018-10-29 14:46:54 +0000  63112 bytes for ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols
+2018-10-29 14:46:54 +0000  copying file ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols ... 
+2018-10-29 14:46:54 +0000  239160 bytes for ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols
+2018-10-29 14:46:54 +0000  2018-10-29 14:46:54 +0000  
+
+2018-10-29 14:46:54 +0000  /usr/bin/ditto exited with 0
+2018-10-29 14:46:54 +0000  2018-10-29 14:46:54 +0000  
+
+2018-10-29 14:46:54 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-10-29 14:46:54 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

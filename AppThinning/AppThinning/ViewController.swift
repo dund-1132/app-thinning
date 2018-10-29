@@ -10,47 +10,51 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var notifyLabel: UILabel!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchLevelAssests(imageName: "sp01", tag: "level01")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    private func fetchLevelAssests(imageName: String, tag: String) {
+    private func fetchLevelAssests(tags: Set<String>) {
         loadingIndicator.startAnimating()
-        let resourceRequest = NSBundleResourceRequest(tags: Set([tag]))
+        notifyLabel.text = "Downloading"
+        let resourceRequest = NSBundleResourceRequest(tags: tags)
         resourceRequest.conditionallyBeginAccessingResources { [weak self] (isExist) in
             if isExist {
-                self?.displayImageView(error: nil, imageName: imageName)
+                DispatchQueue.main.async {
+                    self?.notifyLabel.text = "Finished (existed)"
+                    self?.loadingIndicator.stopAnimating()
+                }
             } else {
                 resourceRequest.beginAccessingResources { (error) in
-                    self?.displayImageView(error: error, imageName: imageName)
+                    DispatchQueue.main.async {
+                        self?.notifyLabel.text = "Finished (Downloaded)"
+                        self?.loadingIndicator.stopAnimating()
+                    }
                 }
-                
             }
-        }
-    }
-    
-    private func displayImageView(error: Error?, imageName: String) {
-        DispatchQueue.main.async {
-            if let error = error {
-                print("[App Thinning] error \(error.localizedDescription)")
-                self.imageView.image = nil
-            } else {
-                self.imageView.image = UIImage(named: imageName)
-            }
-            self.loadingIndicator.stopAnimating()
         }
     }
     
     @IBAction func goToLevel02(_ sender: Any) {
-        fetchLevelAssests(imageName: "sp02", tag: "level02")
+        let tags = Set([
+            "level01",
+            "level02",
+            "level03",
+            "level04",
+            "level05",
+            "level06",
+            "level07",
+            "level08",
+            "level09",
+        ])
+        fetchLevelAssests(tags: tags)
     }
     
 }
